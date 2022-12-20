@@ -1,6 +1,7 @@
+
 describe('Cadastro de usuarios alura pic', () => {
-    before(() => {
-        cy.visit('https://alura-fotos.herokuapp.com')
+    beforeEach(() => {
+        cy.visit('https://alura-fotos.herokuapp.com') //A baseUrl es´ta no arquivo cypress.json
     })
     
     it('verifica mensagens de email invalido', () => {
